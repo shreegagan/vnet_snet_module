@@ -1,19 +1,19 @@
 variable "resource_group_name" {
-  type        = string
-  description = "RG name in Azure"
+    type = string
+  
 }
-
-variable "resource_group_location" {
-  type        = string
-  description = "RG location in Azure"
+variable "location" {
+    type = string
+  
 }
+variable "azurerm_key_vault" {
+    type = string
 
-variable "virtual_network_name" {
-  type        = string
-  description = "Virtual Network name in Azure"
 }
-
-variable "subnet_name" {
-  type        = string
-  description = "Subnet name in Azure"
+variable "azurerm_key_vault_secret" {
+    type = string  
+}
+variable "azurerm_key_vault_value" {
+    type = string
+  
 }

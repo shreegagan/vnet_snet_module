@@ -1,5 +1,5 @@
-resource_group_name     = "example-rg"
-resource_group_location = "West Europe"
-
-virtual_network_name    = "vnet-hen-prod2"
-subnet_name             = "snet-hen-prod2"
+resource_group_name = "example-rg"
+location = "West Europe"
+azurerm_key_vault = "my-keyvault2001"
+azurerm_key_vault_secret = "Database"
+azurerm_key_vault_value = "root"
